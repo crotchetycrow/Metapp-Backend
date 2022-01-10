@@ -77,7 +77,7 @@ You should have `python3` and `pip3`  installed\
 cd into the repo and create a virtual environment:
 ```
 python3 -m venv metapp_venv
-source venv/bin/activate
+source metapp_venv/bin/activate
 ```
 and install these libaries:
 
