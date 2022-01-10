@@ -28,7 +28,7 @@ I want to return a sorted list of stuff
 ```
 
 ```
-As a back-end dev 
+As a back-end dev
 So that I can filter the list of events
 I want to enable users to select a `subcategory` after conducting their initial search
 ```
@@ -69,4 +69,23 @@ I want to be able to show them a map with the locations of their saved events pi
 As a back-end dev
 So that I can improve the user's search results
 I want to restrict their range to a circle with them at the centre
+```
+
+### To run this project
+Prerequisites:\
+You should have `python3` and `pip3`  installed\
+cd into the repo and create a virtual environment:
+```
+python3 -m venv metapp_venv
+source venv/bin/activate
+```
+and install these libaries:
+
+```
+pip3 install flask python-dotenv
+```
+
+To deactivate the virtual environment type:
+```
+deactivate
 ```
